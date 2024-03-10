@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div  class="circle">1</div>
+    <div class="content">Personal Details -----</div>
+    <div class="circle">2</div>
+    <div class="content">Contact Details -----</div>
+    <div class="circle">3</div>
+    <div class="content">10th Details -----</div>
+    <div class="circle">4</div>
+    <div class="content">12th  Details -----</div>
+    <div class="circle">5</div>
+    <div class="content">Undergraduate Education Details -----</div>
+    <div class="circle">6</div>
+    <div class="content">Skills -----</div>
+    <div class="circle">7</div>
+    <div class="content">Work Experience -----</div>
+    <div class="circle">8</div>
+    <div class="content">Hobby</div>
+    <form onsubmit="return validateForm()" action="high.html">
+        <fieldset class="center-legend">
+            <legend>Secondary Education Details</legend>
+        <label for="sname">School Name:</label>
+        <input type="text" id="sname" name="sname" required><br><br>
+        <label for="pyear">Passing Year:</label>
+        <input type="year" id="pyear" name="pyear" required><br><br>
+        <label for="percentage">Percentage:</label>
+        <input type="text" id="percentage" name="percentage" required><br><br>   </fieldset>   
+        </fieldset>  
+        <div class="center-button">
+        <a href="contact.html"><input type="button" value="back"></a>
+        <input type="submit" value="Next">
+        </div>
+    </form>
+    <script src="01.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div  class="circle">1</div>
+    <div class="content">Personal Details -----</div>
+    <div class="circle">2</div>
+    <div class="content">Contact Details -----</div>
+    <div class="circle">3</div>
+    <div class="content">10th Details -----</div>
+    <div class="circle">4</div>
+    <div class="content">12th  Details -----</div>
+    <div class="circle">5</div>
+    <div class="content">Undergraduate Education Details -----</div>
+    <div class="circle">6</div>
+    <div class="content">Skills -----</div>
+    <div class="circle">7</div>
+    <div class="content">Work Experience -----</div>
+    <div class="circle">8</div>
+    <div class="content">Hobby</div>
+    <form onsubmit="return validateForm()" action="hobby.html">
+        <fieldset class="center-legend">
+            <legend>Work Experience</legend>
+        <label for="comp">Company Name:</label>
+        <input type="text" id="comp" name="comp" required><br><br>
+        <label for="jdate">Joining Date:</label>
+        <input type="date" id="jdate" name="jdate" required><br><br>
+        <label for="edate">Ending Date:</label>
+        <input type="date" id="edate" name="edate" required><br><br>
+        <label for="disc">Description:</label>
+        <textarea id="disc" name="disc"></textarea required><br><br>  
+        </fieldset>  
+        <div class="center-button">
+        <a href="skills.html"><input type="button" value="back"></a>
+        <input type="submit" value="Next">
+        </div>
+    </form>
+    <script src="01.js"></script>
+</body>
+</html>

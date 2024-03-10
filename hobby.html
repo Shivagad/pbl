@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        
+        input {
+            margin-bottom: 10px;
+        }
+        fieldset {
+            width: 300px; 
+            text-align: center;
+        }
+        #codeForm button {
+            display: block;
+            margin: 0 auto;
+            color: rgb(247, 241, 244); 
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div  class="circle">1</div>
+    <div class="content">Personal Details -----</div>
+    <div class="circle">2</div>
+    <div class="content">Contact Details -----</div>
+    <div class="circle">3</div>
+    <div class="content">10th Details -----</div>
+    <div class="circle">4</div>
+    <div class="content">12th  Details -----</div>
+    <div class="circle">5</div>
+    <div class="content">Undergraduate Education Details -----</div>
+    <div class="circle">6</div>
+    <div class="content">Skills -----</div>
+    <div class="circle">7</div>
+    <div class="content">Work Experience -----</div>
+    <div class="circle">8</div>
+    <div class="content">Hobby</div>
+    <form id="codeForm" onsubmit="return validateForm()" action="download.html">
+        <fieldset>
+            <legend>Add Your Hobby</legend>
+        <div id="codeInputs"></div>
+        <button type="button" onclick="addCodeInput()">+</button>
+    </fieldset>
+    <div class="center-button">
+        <a href="experience.html"><input type="button" value="back"></a>
+        <input type="submit" value="Next">
+        </div>
+    </form>
+    <script src="01.js"></script>
+</body>
+</html>
+

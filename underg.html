@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="circle">1</div>
+    <div class="content">Personal Information -----</div>
+    <div class="circle">2</div>
+    <div class="content">Contact Details -----</div>
+    <div class="circle">3</div>
+    <div class="content">Education Details -----</div>
+    <div class="circle">4</div>
+    <div class="content">Skills -----</div>
+    <div class="circle">5</div>
+    <div class="content">Work Experience -----</div>
+    <div class="circle">6</div>
+    <div class="content">Hobby</div>
+    <form onsubmit="return validateForm()" action="skills.html">
+        <fieldset class="center-legend">
+            <legend>Undergraduate Education Details</legend>
+            <label for="cname">Institute Name:</label>
+            <input type="text" id="cname" name="cname" required><br><br>
+            <label for="syear">Joining Year:</label>
+            <input type="year" id="syear" name="syear" required><br><br>
+            <label for="eyear">Passing Year:</label>
+            <input type="year" id="eyear" name="eyear" required><br><br>
+            <label for="cgpa">CGPA:</label>
+            <input type="text" id="cgpa" name="cgpa" required><br><br>  </fieldset>
+            <div class="center-button">
+                <a href="high.html"><input type="button" value="back"></a>
+                <input type="submit" value="Next">
+                </div>  
+    </form>
+    <script src="01.js"></script>
+</body>
+</html>

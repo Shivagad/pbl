@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div  class="circle">1</div>
+    <div class="content">Personal Details -----</div>
+    <div class="circle">2</div>
+    <div class="content">Contact Details -----</div>
+    <div class="circle">3</div>
+    <div class="content">10th Details -----</div>
+    <div class="circle">4</div>
+    <div class="content">12th  Details -----</div>
+    <div class="circle">5</div>
+    <div class="content">Undergraduate Education Details -----</div>
+    <div class="circle">6</div>
+    <div class="content">Skills -----</div>
+    <div class="circle">7</div>
+    <div class="content">Work Experience -----</div>
+    <div class="circle">8</div>
+    <div class="content">Hobby</div>
+    <form onsubmit="return validateForm()" action="education.html">
+        <fieldset class="center-legend">
+            <legend>Enter Your contact Details</legend>
+        <label for="mobile">Mobile Number:</label>
+        <input type="number" id="mobile" name="mobile" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address"></textarea required><br><br>
+        </fieldset>
+        <div class="center-button">
+        <a href="personal.html"><input type="button" value="back"></a>
+        <input type="submit" value="Next">
+        </div>
+    </form>
+    <script src="01.js"></script>
+</body>
+
+</html>
